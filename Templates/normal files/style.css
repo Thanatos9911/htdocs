@@ -1,12 +1,28 @@
-body {
-    margin: 5px;
-    background-color: #fff;
+:root {
+    --title-width: 400px;
+    --minus: 50px;
 }
 
-.body-title {
-    margin: 5px 2px 20px 2px;
+body {
+    margin: 8px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.title {
+    margin: 2px auto;
     background-color: antiquewhite;
-    padding: 0px 6px;
+    padding: 0px 3px;
+    width: var(--title-width);
+    /* text-align: center; */
+}
+
+.subtitle {
+    margin: 0px auto;
+    background-color: bisque;
+    padding: 0px 3px;
+    width: calc(var(--title-width) - var(--minus));
+    /* text-align: center; */
 }
 
 .br {
