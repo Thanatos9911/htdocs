@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+    background-color: #fff;
+}
+
+.body-title {
+    margin: 5px 5px 20px 5px;
+    color: blue;
+}
+
+.br {
+    display: block;
+}

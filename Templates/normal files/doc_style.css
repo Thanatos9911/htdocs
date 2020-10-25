@@ -1,0 +1,14 @@
+body {
+    margin: 5px;
+    background-color: #fff;
+}
+
+.body-title {
+    margin: 5px 5px 20px 5px;
+    background-color: antiquewhite;
+    padding: 0px 6px;
+}
+
+.br {
+    display: block;
+}

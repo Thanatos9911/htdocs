@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charlist="utf-8">
+        <link rel="stylesheet" href="./style.css">
+        <title>localhost</title>
+    </head>
+    <body>
+        <h1 class="title">index of
+            <?php
+            $path = pathinfo($_SERVER['PHP_SELF']);
+            echo $path["dirname"];
+            ?></h1>
+        <div class="d_fs">
+            <h2 :is>directories</h2>
+            <?php
+            include("./directories.php")
+            ?>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    background-color: #fff;
+}
+
+body {
+    text-align: center;
+}
+
+.body-title {
+    margin: 5px 5px 20px 5px;
+    background-color: rgb(255, 193, 111);
+    padding: 0px 100px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.contents {
+    margin: 5px;
+    display: inline-block;
+    background-color: beige;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form p {
+    text-align: left;
+}
+
+.contents p {
+    margin: 0px;
+}
+
+.br {
+    display: block;
+}

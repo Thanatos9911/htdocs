@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    background-color: #fff;
+}
+
+.all { 
+    background-color: darkslateblue;
+    width: 200px;
+    padding: 20px;
+    margin: 150px auto auto auto;
+}
+
+.now_time {
+    padding: 0px 0px 20px 0px;
+}
+
+.time {
+    color: burlywood;
+}
+
+.big {
+    padding: 0px 0px 0px 0px;
+}
+
+.big h1 {
+    margin: 0px;
+}
+
+.now_time h4 {
+    margin: 0px;
+}
