@@ -3,7 +3,7 @@
     <head>
         <meta charlist="utf-8">
         <title>practice</title>
-        <link rel="stylesheet" href="/Templates/normal files/style.css"
+        <link rel="stylesheet" href="/Templates/PHP prac/doc_style.css">
     </head>
     <body>
         <a href="./.." class="parent_dir">Parent directory</a>
