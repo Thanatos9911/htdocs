@@ -1,17 +1,9 @@
 
 <?php
 
-$name = 12;
-$NAME = 13;
-print $name."<br>";
-print $NAME."<br>";
-print $NAME + $name."<br>";
-print $NAME.$name;
-
-
-
-
-
+$list = array(1 => "aaa", 2 => "bbb", 3 => "ccc");
+echo array_search("bbb", $list);
+echo var_export(array_search("abc", $list));
 
 
 ?>
