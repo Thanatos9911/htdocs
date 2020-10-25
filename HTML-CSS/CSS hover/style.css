@@ -1,0 +1,11 @@
+body :hover{
+    background-color: #fff;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.da :hover, .db :hover{
+    background-color: red;
+}
