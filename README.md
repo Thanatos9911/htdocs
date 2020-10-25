@@ -4,8 +4,8 @@
 |||
 |----|----|
 |サーバー|Apache2.4|
-|PHPバージョン|PHP7|
-|HTMLバージョン|HTML5|
+|PHP|PHP7.4|
+|HTML|HTML5|
 |ブラウザ|Google Chrome|
 ### このソースを使うには
 ・サーバーを作る。
