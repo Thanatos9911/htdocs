@@ -20,7 +20,6 @@ $password = null;
 if (isset($_GET["comment"])) {
     $password = $_GET["comment"];
     if (mysqli_connect("localhost","root",$password)) {
-        echo "connect success!";
     }
     else {
         echo "connect fail!";
@@ -29,6 +28,11 @@ if (isset($_GET["comment"])) {
 else {
     print "ERROR";
 }
+
+$sql = 'create table (
+    id int(11) auto_increment not null primary key,
+    email varchar(20)
+);';
 
 ?>
             <h3>after php</h3>
