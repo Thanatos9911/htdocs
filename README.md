@@ -15,5 +15,5 @@
 ## その他
 ・問題点がありましたら、  
 Thanatos9911@gmail.com　または  
-[Twitter](https://twitter.com/Thanatos9911){:target="_blank"}  
+[Twitter](https://twitter.com/Thanatos9911)
 までご連絡ください
