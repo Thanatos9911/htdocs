@@ -1,0 +1,36 @@
+body {
+    margin: 5px;
+    background-color: #fff;
+}
+
+.title {
+    margin: 5px 2px 20px 2px;
+    background-color: antiquewhite;
+    padding: 0px 6px;
+}
+
+.subtitle {
+    margin: 5px 2px 20px 2px;
+    background-color: bisque;
+    padding: 0px 6px;
+}
+
+form {
+    display: inline-block;
+    border-width: 10px;
+    border-color: auto;
+    border-style: outset;
+    padding: 8px;
+}
+
+form p {
+    margin: 0px;
+}
+
+.br {
+    display: block;
+}
+
+.php {
+    background-color: antiquewhite;
+}
