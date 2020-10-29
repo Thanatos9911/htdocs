@@ -1,0 +1,47 @@
+:root {
+    --title-width: 400px;
+    --minus: 50px;
+}
+
+body {
+    margin: 8px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.title {
+    margin: 2px auto;
+    background-color: antiquewhite;
+    padding: 0px 3px;
+    width: var(--title-width);
+    /* text-align: center; */
+}
+
+.subtitle {
+    margin: 0px auto;
+    background-color: bisque;
+    padding: 0px 3px;
+    width: calc(var(--title-width) - var(--minus));
+    /* text-align: center; */
+}
+
+.connect {
+    padding: 5px;
+    margin: 5px auto;
+    border-color: auto;
+    border-width: 10px;
+    border-style: groove;
+    width: 300px;
+}
+
+.connect p {
+    margin: 0px;
+}
+
+.br {
+    display: block;
+}
+
+.php {
+    background-color: antiquewhite;
+}
