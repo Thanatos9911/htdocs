@@ -4,6 +4,7 @@
         <meta charlist="utf-8">
         <title>practice</title>
         <link rel="stylesheet" href="/Templates/PHP prac/doc_style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
         <a href="./.." class="parent_dir">Parent directory</a>
@@ -17,13 +18,30 @@
 
 $password = null;
 
-
 $password = $_GET["pass"];
-if (mysqli_connect("localhost","root",$password)) {
-    echo "connect success!";
+$link = mysqli_connect("localhost","root",$password);
+if ($link) {
 }
 else {
-    echo "connect fail!";
+    die ('mysql connect faild<span class="br"></span>');
+}
+
+$usrname = $_GET["usrname"];
+$email = $_GET["email"];
+
+$db_se = mysqli_select_db($link, "php_prac");
+if (!$db_se) {
+    die ("db select faild");
+}
+
+$sql = "select * from user_data";
+$result = mysqli_query($link, $sql);
+if (!$result) {
+    die ("query faild");
+}
+
+while ($row = mysqli_fetch_assoc($result)) {
+    echo $row['id'].", ".$row['email'].", ".$row['name'];
 }
 
 ?>
@@ -33,4 +51,9 @@ else {
             </section>
         </div>
     </body>
+    <style>
+        .php {
+            font-family: 'Inconsolata', monospace
+        }
+    </style>
 </html>

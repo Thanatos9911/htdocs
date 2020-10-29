@@ -18,11 +18,11 @@
 $password = null;
 
 $password = $_GET["pass"];
-if (mysqli_connect("localhost","root",$password)) {
-    echo "connect success!";
+$link = mysqli_connect("localhost","root",$password);
+if ($link) {
 }
 else {
-    echo "connect fail!";
+    die ('mysql connect faild<span class="br"></span>');
 }
 
 ?>
