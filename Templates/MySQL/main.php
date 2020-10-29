@@ -17,17 +17,12 @@
 
 $password = null;
 
-if (isset($_GET["comment"])) {
-    $password = $_GET["comment"];
-    if (mysqli_connect("localhost","root",$password)) {
-        echo "connect success!";
-    }
-    else {
-        echo "connect fail!";
-    }
+$password = $_GET["pass"];
+if (mysqli_connect("localhost","root",$password)) {
+    echo "connect success!";
 }
 else {
-    print "ERROR";
+    echo "connect fail!";
 }
 
 ?>
