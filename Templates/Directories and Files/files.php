@@ -19,9 +19,9 @@ foreach (array_slice($f_ds, $index) as $f_d) {
         $index = $INDEX;
         continue;
     }
-    if (array_search($f_d, $skip) !== false) {
-        continue;
-    }
+    // if (array_search($f_d, $skip) !== false) {
+    //     continue;
+    // }
     echo "<li><a href=\"$f_d\">$f_d</a></li>";
 }
 echo "</ul>";
