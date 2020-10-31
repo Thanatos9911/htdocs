@@ -4,7 +4,7 @@
         <meta charlist="utf-8">
         <title>practice</title>
         <link rel="stylesheet" href="/Templates/PHP prac/doc_style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet"> -->
     </head>
     <body>
         <a href="./.." class="parent_dir">Parent directory</a>
@@ -52,8 +52,8 @@ while ($row = mysqli_fetch_assoc($result)) {
         </div>
     </body>
     <style>
-        .php {
+        /* .php {
             font-family: 'Inconsolata', monospace
-        }
+        } */
     </style>
 </html>
