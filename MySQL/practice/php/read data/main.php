@@ -35,16 +35,17 @@ if (!$db_se) {
     die ('db connect faild<span class="br"></span>');
 }
 
-$sql = 'select * from table1';
+$sql = 'SELECT * from user_data';
 
 $result = mysqli_query($link, $sql);
 if (!$result) {
     die ('query faild<span class="br"></span>');
 }
 
-echo "<h3>data of php_prac.table1</h3>";
+echo "<h4>data of php_prac.user_data</h4>";
 while ($row = mysqli_fetch_assoc($result)) {
-    echo "id = ".$row['id']."   name = ".$row['name'].'<span class="br"></span>';
+    echo '<div class="contents">';
+    echo "email = ".$row['email']." <span class=\"br\" /> name = ".$row['name'].'<span class="br" \></div>';
 }
 
 mysqli_close($link);
@@ -55,5 +56,10 @@ mysqli_close($link);
             <section class="html" id="after">
             </section>
         </div>
+        <style>
+            .contents {
+                margin: 20px 0px;
+            }
+        </style>
     </body>
 </html>

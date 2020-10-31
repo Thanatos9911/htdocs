@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="/Templates/stylesheets/mysql/doc_style.css">
         <!-- <link rel="stylesheet" href="/Templates/stylesheets/php/doc_style.css"> -->
+        <link rel = "icon" href="/icon.ico">
     </head>
     <body>
         <a href="./.." class="parent_dir">Parent directory</a>
@@ -14,11 +15,11 @@
         <div class="contents">
             <form class="connect" action="./main.php">
                 <p>enter your name</p>
-                <input type="text" name="usrname" method="get">
+                <input type="text" name="usrname" method="get" required>
                 <p>enter your e-mail address</p>
-                <input type="text" name="email" method="get">
+                <input type="email" name="email" method="get" required>
                 <p>mysql password</p>
-                <input type="password" name="pass" method="get">
+                <input type="password" name="pass" method="get" required>
                 <input type="submit" value="send">
             </form>
         </div>
