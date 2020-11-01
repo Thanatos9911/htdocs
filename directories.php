@@ -1,6 +1,7 @@
 <?php
 
 $skip[] = ".git";
+$skip[] = "PWDs";
 
 $f_ds = array_slice(scandir("./"), 2);
 

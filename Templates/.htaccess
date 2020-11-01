@@ -1,0 +1,5 @@
+AuthType     Basic
+AuthName     "localhost"
+AuthUserFile "${HTDOCS}/PWDs/Templates/.htpasswd"
+AuthGroupFile   /dev/null
+require valid-user
