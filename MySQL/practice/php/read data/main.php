@@ -45,7 +45,7 @@ if (!$result) {
 echo "<h4>data of php_prac.user_data</h4>";
 while ($row = mysqli_fetch_assoc($result)) {
     echo '<div class="contents">';
-    echo "email = ".$row['email']." <span class=\"br\" /> name = ".$row['name'].'<span class="br" \></div>';
+    echo "id = ".$row['id']."<span class=\"br\">"."email = ".$row['email']." <span class=\"br\" /> name = ".$row['name'].'<span class="br" \></div>';
 }
 
 mysqli_close($link);
