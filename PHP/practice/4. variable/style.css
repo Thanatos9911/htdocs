@@ -1,0 +1,15 @@
+body {
+    margin: 5px;
+    background-color: #fff;
+}
+
+.body-title {
+    margin: 5px 5px 20px 5px;
+    color: rgb(255, 88, 88);
+}
+
+.br {
+    display: block;
+}
+
+
